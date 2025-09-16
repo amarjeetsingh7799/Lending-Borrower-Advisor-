@@ -1,0 +1,13 @@
+@relation loan_data
+
+@attribute loanAmount numeric
+@attribute creditScore numeric
+@attribute income numeric
+@attribute existingDebt numeric
+@attribute class {Denied, Approved}
+
+@data
+5000,750,60000,1000,Approved
+10000,600,40000,5000,Denied
+2000,800,70000,500,Approved
+// Add more sample data here
