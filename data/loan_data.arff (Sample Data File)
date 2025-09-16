@@ -1,13 +1,4 @@
-@relation loan_data
-
-@attribute loanAmount numeric
-@attribute creditScore numeric
-@attribute income numeric
-@attribute existingDebt numeric
-@attribute class {Denied, Approved}
-
-@data
-5000,750,60000,1000,Approved
-10000,600,40000,5000,Denied
-2000,800,70000,500,Approved
-// Add more sample data here
+Name: Aditya, Loan: 120000, Credit Score: (between : 350-850)750, Income: 60000, Debt: 20000, Risk: Medium Risk, Interest Rate: 3.666666666666666%
+Name: Nishant, Max Loan: 500000, Interest Rate: 5.5%
+Name: ebjc, Loan: 515525, Credit Score: (between : 350-850)560, Income: 61461, Debt: 5000, Risk: High Risk, Interest Rate: 10.0%
+Name: jcbc, Max Loan: 50000, Interest Rate: 6.0%
